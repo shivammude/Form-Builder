@@ -119,6 +119,7 @@ npm start
 
 **Shivam Mude**  
 **Khalil Shaikh**
+
 *Built as part of a full-stack development project*
 
 ---
