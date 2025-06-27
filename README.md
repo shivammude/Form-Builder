@@ -91,11 +91,26 @@ npm start
 ## 📷 Screenshots
 
 > Add screenshots of:
-- Form Builder UI
+- Landing UI
+  ![Landing UI](https://github.com/shivammude/Form-Builder/blob/master/Landing%20UI.png)
+- Your Forms
+  ![Your_Forms]("https://github.com/shivammude/Form-Builder/blob/master/Your%20Forms.png")
+- Creation of New Form
+  ![Creation Of New Form]("https://github.com/shivammude/Form-Builder/blob/master/Creation%20Of%20New%20Form.png")
+- Add Fields
+  ![Add Fields]("https://github.com/shivammude/Form-Builder/blob/master/Add%20Fields.png") 
+- Dropdown_date
+  ![Dropdown_date]("https://github.com/shivammude/Form-Builder/blob/master/Dropdown_date.png")
+- Generation Of Link
+  ![Generation Of Link]("https://github.com/shivammude/Form-Builder/blob/master/Generation%20Of%20Link.png")
+- Form Creation
+  ![Form Creation]("https://github.com/shivammude/Form-Builder/blob/master/Form%20creation.png")
+- User Form Creation
+  ![User Form Creation]("https://github.com/shivammude/Form-Builder/blob/master/UserFormCreation.png")
+- Responses
+  ![Responses]("https://github.com/shivammude/Form-Builder/blob/master/Responses.png")
 - Admin Dashboard
-- Response View
-- Excel file export
-
+  ![Admin Dashboard]("https://github.com/shivammude/Form-Builder/blob/master/AdminDashboard.png")
 ---
 
 ## ⚠️ Limitations
