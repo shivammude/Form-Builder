@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# 📝 Form Builder Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dynamic, full-stack form builder that allows administrators to create, manage, and share customizable online forms. Users can submit responses, and admins can export all submissions to Excel for further analysis.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🔐 **Admin Authentication** (Login/Register)
+- 🧩 **Dynamic Form Builder** with drag-and-drop interface
+- 📄 Multiple field types (Text, Radio, Checkbox, Textarea)
+- 🔗 **Shareable Form Link** generation
+- 📥 **User Response Submission**
+- 📊 **Admin Dashboard** to view responses
+- 📤 **Export to Excel (.xlsx)** functionality
+- 📁 Lightweight data storage using JSON
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+### Frontend
+- [React.js](https://reactjs.org)
+- [Material UI (MUI)](https://mui.com)
+- JavaScript, HTML, CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
+- [Node.js](https://nodejs.org)
+- [Express.js](https://expressjs.com)
+- [ExcelJS](https://www.npmjs.com/package/exceljs)
+- [UUID](https://www.npmjs.com/package/uuid)
+- [Axios](https://axios-http.com)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+Form-creation-main/
+├── backend/
+│   ├── server.js
+│   ├── db.json
+│   ├── package.json
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── AdminDashboard.js
+│   │   │   ├── FormBuilder.js
+│   │   │   ├── FormResponses.js
+│   │   │   └── ExportResponses.js
+│   ├── public/
+│   ├── package.json
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📦 Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/form-builder.git
+cd form-builder
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Start Backend
+```bash
+cd backend
+npm install
+npm run dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Start Frontend
+```bash
+cd ../frontend
+npm install
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## ✅ Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Register or log in as admin.
+2. Create a new form using the builder.
+3. Share the generated link with users.
+4. View responses from the dashboard.
+5. Export collected responses to Excel.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📷 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> Add screenshots of:
+- Form Builder UI
+- Admin Dashboard
+- Response View
+- Excel file export
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ⚠️ Limitations
 
-### Making a Progressive Web App
+- Data is stored locally in a JSON file, not suitable for large-scale applications.
+- No cloud deployment configured.
+- Passwords are stored in plain text (not secure for production).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📌 Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Integrate MongoDB or PostgreSQL for persistent data storage
+- Add role-based access control
+- Mobile-responsive UI improvements
+- Deployment on platforms like Heroku, Vercel, or AWS
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🧑‍💻 Author
 
-### `npm run build` fails to minify
+**Shivam Mude**  
+**Khalil Shaikh**
+*Built as part of a full-stack development project*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📃 License
+
+This project is open-source and free to use for educational and development purposes.
+
